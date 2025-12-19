@@ -30,7 +30,7 @@ public class MainApp extends Application {
 
     private static final int HEIGHT = 540;
 
-    // Media player
+
     private MediaPlayer bgMusic;
 //hioooooo
     @Override
