@@ -16,5 +16,5 @@ public class Weapon {
     public String getName() { return name; }
     public int getDamage() { return damage; }
     public double getProjectileSpeed() { return projectileSpeed; }
-    public long getCooldownMs() { return cooldownMs; }
+    public long getCooldownMs() { return cooldownMs;   }
 }

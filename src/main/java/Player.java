@@ -31,6 +31,8 @@ public class Player {
         this.currentWeapon = fighterType.getDefaultWeapon();
     }
 
+
+
     public void setWeapon(com.example.game.Weapon w) { this.currentWeapon = w; }
     public com.example.game.Weapon getWeapon() { return currentWeapon; }
 

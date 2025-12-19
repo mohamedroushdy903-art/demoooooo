@@ -18,6 +18,7 @@ public class Enemy {
         root.getChildren().add(rect);
     }
 
+
     public void update(double dt) {
         rect.setY(rect.getY() + speed * dt);
     }
