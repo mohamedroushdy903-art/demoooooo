@@ -97,6 +97,8 @@ public class PlayerController {
         return p;
     }
 
+
+
     public void handleWeaponSwitchKeys() {
         if (prevWeaponKey != null && keys.contains(prevWeaponKey)) {
             currentWeaponIndex = (currentWeaponIndex - 1 + availableWeapons.size()) % availableWeapons.size();

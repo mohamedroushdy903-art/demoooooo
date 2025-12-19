@@ -24,14 +24,18 @@ import java.util.List;
 public class MainApp extends Application {
 
     private static final int WIDTH = 900;
+
+
+
+
     private static final int HEIGHT = 540;
 
-    // Media player
-    private MediaPlayer bgMusic;
 
+    private MediaPlayer bgMusic;
+//hioooooo
     @Override
     public void start(Stage stage) {
-        // show CharacterSelection scene
+
         com.example.game.CharacterSelection cs = new com.example.game.CharacterSelection();
         List<com.example.game.Weapon> weapons = com.example.game.WeaponFactory.getAllWeapons();
 
