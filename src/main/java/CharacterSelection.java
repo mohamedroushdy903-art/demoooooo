@@ -15,10 +15,7 @@ import javafx.stage.Stage;
 
 import java.util.List;
 
-/**
- * Scene 1 — Character selection with neon look.
- * Keeps the simple callback interface so MainApp can continue to use it.
- */
+
 public class CharacterSelection {
     public void show(Stage stage, List<com.example.game.Weapon> weapons, SelectionCallback callback) {
 
