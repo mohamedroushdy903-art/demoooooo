@@ -31,7 +31,7 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage stage) {
-        // show CharacterSelection scene
+
         com.example.game.CharacterSelection cs = new com.example.game.CharacterSelection();
         List<com.example.game.Weapon> weapons = com.example.game.WeaponFactory.getAllWeapons();
 
